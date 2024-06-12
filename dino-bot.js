@@ -15,7 +15,7 @@
 
         if (obstacle) {
             let tRexBottomPos = tRex.yPos + tRex.config.HEIGHT;
-            let speed = Runner.instance_.currentSpeed;
+            let speed = 13;  // Set the speed to 13
 
             if (speed !== previousSpeed) {
                 previousSpeed = speed;
@@ -166,4 +166,10 @@
 
     let obstacleIntervalId = setInterval(checkForObstacles, 25);
     let gameOverIntervalId = setInterval(checkForGameOver, 100);
+
+    // Override the game's speed to make it static at 13
+    Object.defineProperty(Runner.instance_, 'currentSpeed', {
+        get: function() { return 13; },
+        set: function() {}
+    });
 })();
